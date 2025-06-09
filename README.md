@@ -6,7 +6,6 @@ Your mission: **Rebuild them from scratch using C**, and bring order back to the
 
 Instead of just using these tools, you’ll create simplified versions of them, give them custom names, and make them work just like the originals.
 
----
 
 ## Objective
 
@@ -21,7 +20,6 @@ Recreate the following core Unix commands with your own C programs:
 
 Each command should be a **separate executable** and should work **from the terminal** just like real commands.
 
----
 
 ## Flags to Implement
 
@@ -45,7 +43,6 @@ Each command should be a **separate executable** and should work **from the term
 - `-n` : Show line numbers for matches  
 - `-v` : Show only non-matching lines  
 
----
 
 ## Requirements
 
@@ -55,8 +52,6 @@ Each command should be a **separate executable** and should work **from the term
 
 
   
-
----
 
 ## Writeups
 
