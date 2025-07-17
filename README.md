@@ -1,6 +1,6 @@
 # SysForge – Rebuilding the Unix Core
 
-Welcome to **SysForge**, a challenge where you step into the shoes of a system explorer, diving deep into the broken-down world of Unix. The core command-line tools that once powered this world — `ls`, `wc`, `cat`, and `grep` — are gone.
+Welcome to **SysForge**, a challenge where you step into the shoes of a system explorer, diving deep into the broken-down world of Unix. The core command-line tools that once powered this world (`ls`, `wc`, `cat`, and `grep`) are gone.
 
 Your mission: **Rebuild them from scratch using C**, and bring order back to the terminal!
 
@@ -25,30 +25,28 @@ Each command should be a **separate executable** and should work **from the term
 
 ### `listit`
 - `-a` : Show all files, including hidden ones  
-- `-l` : Show detailed file info (permissions, size, etc.)  
 - `-1` : List one file per line  
 
 ### `showtext`
 - `-n` : Number all lines  
-- `-b` : Number non-empty lines only  
 - `-s` : Squeeze multiple blank lines into one  
 
 ### `countit`
 - `-l` : Count lines  
 - `-w` : Count words  
-- `-c` : Count characters  
 
 ### `finder`
-- `-i` : Ignore case while matching  
 - `-n` : Show line numbers for matches  
 - `-v` : Show only non-matching lines  
 
 
 ## Requirements
 
-- Each command must be implemented as a **separate C file** using only the **Standard C Library** (`stdio.h`, `stdlib.h`, etc.).
+- Each command must be implemented as a **separate C file** 
 
 - Your commands must be **runnable from anywhere in the terminal**, like the original Unix tools.
+
+- Support for multiple files and combined flags is optional. You may choose to handle only one flag or file at a time for simplicity.
 
 
   
